@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+
+  <!-- Aqui é a parte de CSS ... Comentário em HTML--> 
+    <style>
+
+        body{
+            background-color: aqua;
+            color:rgb(14, 6, 6);
+            font: normal 25pt Arial; /* Comentário em CSS*/
+        }
+        h1{
+            color:rgb(131, 29, 226);
+        }
+    </style>
+
+</head>
+<body>
+  <h1>Olá, mundo!!
+
+    Título Nível 1
+  </h1> 
+  <p>Parágrafo</p>
+  
+  <!--  Aqui é a parte de Java Script  --> 
+  <script>
+   var nome = window.prompt("Informe seu Nome")
+   window.alert('${nome}, estou só testando aqui')
+   var n1 = window.prompt('Digite um número')
+   var n2 = window.prompt('Digite outro número')
+   var s = Number.parseFloat(n1) + Number.parseFloat(n2)// Ou somente Number()
+// De número para string: String(n) ou n.toString()
+
+   window.alert('A soma dos valores é '+s) // concatenação sem mudar o tipo:(
+   
+  </script>
+
+</body>
+</html>
